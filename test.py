@@ -23,16 +23,23 @@ def parse_items(item_str):
 
 # Define functions for plotting
 def plot_items_in_channel(data, channel):
-    filtered_channel_data = data[data['Channel'] == channel]
+    filtered_channel_data = data[data['Channel'] == channel] if channel != 'All' else data
     items_list = filtered_channel_data['items'].apply(parse_items).explode()
     items_count = items_list.value_counts()
-    
-    fig, ax = plt.subplots(figsize=(10, 10))
+
+    if items_count.empty:
+        st.write(f"No items found in {channel}")
+        return
+    if channel != 'All':
+        fig, ax = plt.subplots(figsize=(10, 10))
+    else:
+        fig, ax = plt.subplots(figsize=(10, 20))
     items_count.plot(kind='barh', ax=ax)
     ax.set_xlabel('Count')
     ax.set_ylabel('Items')
     ax.set_title(f'Items bought in {channel}')
     st.pyplot(fig)
+
 
 def plot_channels_pie(data):
     channel_counts = data['Channel'].value_counts()
@@ -67,7 +74,6 @@ def perform_apriori_analysis(data, min_support=0.1, metric="lift", min_threshold
     
     return rules
 
-
 # Navigation
 page = st.sidebar.selectbox("Select Page", ["Home", "Channels", "Items"])
 
@@ -78,16 +84,26 @@ if page == "Home":
 
 elif page == "Channels":
     # Sidebar filters
-    channel = st.sidebar.selectbox('Select Channel', data['Channel'].unique())
-    date_range = st.sidebar.date_input(
-        'Date range', [data['date'].min().date(), data['date'].max().date()])
-
-    # Convert date_range to datetime objects
-    start_date, end_date = pd.to_datetime(date_range)
-
-    # Filter data
-    filtered_data = data[(data['Channel'] == channel) &
-                         (data['date'].between(start_date, end_date))]
+    channel = st.sidebar.selectbox('Select Channel', ['All'] + list(data['Channel'].unique()))
+    
+    # Set default dates
+    min_date = data['date'].min().date()
+    max_date = data['date'].max().date()
+    
+    # Allow the user to select start and end dates
+    start_date = st.sidebar.date_input('Start Date', min_value=min_date, max_value=max_date, value=min_date)
+    end_date = st.sidebar.date_input('End Date', min_value=start_date, max_value=max_date, value=max_date)
+    
+    # Convert to datetime
+    start_date = pd.to_datetime(start_date)
+    end_date = pd.to_datetime(end_date)
+    
+    # Filter data based on selected dates
+    if channel == 'All':
+        filtered_data = data[(data['date'].between(start_date, end_date))]
+    else:
+        filtered_data = data[(data['Channel'] == channel) &
+                             (data['date'].between(start_date, end_date))]
 
     # Check if filtered_data is not empty
     if not filtered_data.empty:
@@ -101,15 +117,15 @@ elif page == "Channels":
         st.line_chart(time_series['Total Amount'])
 
         # Additional analysis
-        st.write('Summary statistics for ', channel)
+        st.write('Summary statistics for ', 'All' if channel == 'All' else channel)
         st.write(filtered_data.describe())
 
         # Plot bar chart for items bought in the selected channel
-        st.write(f'Items bought in {channel}')
+        st.write(f'Items bought in {"all channels" if channel == "All" else channel}')
         plot_items_in_channel(filtered_data, channel)
 
         # Apriori Analysis
-        st.write(f"Apriori analysis for {channel}")
+        st.write(f"Apriori analysis for {'all channels' if channel == 'All' else channel}")
         rules = perform_apriori_analysis(filtered_data, min_support=0.1, metric="lift", min_threshold=1.0)
         
         if not rules.empty:
