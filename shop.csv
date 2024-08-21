@@ -1,0 +1,205 @@
+Job #,Channel,Ad,Item,rent,Amount,Shipping,Total Amount,Paid by F,Farahy Income,items,date
+2,FB,N,"1 robe, 1 slippers",,390.0,50.0,440.0,,440.0,"['robe', 'slippers']",2021-06-19
+3,IG,N,"1 robe, 1 slippers, 1 hat, 1 balloon-helium",,685.0,100.0,785.0,,785.0,"['robe', 'slippers', 'hat', 'balloon-helium']",2021-07-09
+4,IG,Y,14 box,,500.0,40.0,540.0,,540.0,['box'],2021-07-10
+5,FB,Y,"5 robe, 2 slippers",,1645.0,40.0,1685.0,,1685.0,"['robe', 'slippers']",2021-07-10
+6,ZAMMIT,Y,"2 robe, 1 slippers",,680.0,40.0,720.0,,720.0,"['robe', 'slippers']",2021-07-12
+7,FB,N,2 robe,TRUE,150.0,0.0,150.0,,150.0,['robe'],2021-07-21
+8,FB,Y,3 robe,,855.0,50.0,905.0,,905.0,['robe'],2021-07-19
+9,FB,N,"2 robe, 2 slippers",,820.0,50.0,870.0,,870.0,"['robe', 'slippers']",2021-08-06
+11,IG,Y,1 robe,,320.0,50.0,370.0,,320.0,['robe'],2021-08-22
+12,IG,Y,"1 robe, 1 slippers",,430.0,50.0,495.0,,495.0,"['robe', 'slippers']",2021-08-26
+10,IG,Y,"11 eye mask, 11 mirror",,1485.0,0.0,1485.0,,1440.0,"['eye mask', 'mirror']",2021-08-17
+13,IG,Y,"2 robe, 2 slippers",,860.0,50.0,910.0,,910.0,"['robe', 'slippers']",2021-08-25
+14,IG,Y,2 tshirt,,350.0,50.0,400.0,,355.0,['tshirt'],2021-08-25
+16,IG,Y,1 jerb,,600.0,50.0,650.0,,150.0,['jerb'],2021-08-26
+15,ZAMMIT,Y,"1 robe, 1 mandeel-katb-ketab, 1 bathrobe-pack",,1690.0,40.0,1730.0,,1730.0,"['robe', 'mandeel-katb-ketab', 'bathrobe-pack']",2021-08-26
+17,IG,Y,"1 robe, 1 slippers",,409.5,65.0,474.5,,409.5,"['robe', 'slippers']",2021-08-29
+21,NADINE,N,"14 mirror, 14 makeup-bag",,1680.0,50.0,1730.0,,1680.0,"['mirror', 'makeup-bag']",2021-09-11
+26,IG,Y,1 slippers,,110.0,45.0,155.0,,155.0,['slippers'],2021-09-25
+27,IG,Y,1 slippers,,110.0,45.0,155.0,,150.0,['slippers'],2021-09-26
+30,FB,N,"1 bathrobe-pack, 1 pyjama",,1587.0,45.0,1632.0,,1632.0,"['bathrobe-pack', 'pyjama']",2021-09-21
+22,IG,N,1 mandeel-katb-ketab,,390.0,50.0,440.0,,440.0,['mandeel-katb-ketab'],2021-09-12
+23,ALEYA,N,1 mandeel-katb-ketab,,400.0,45.0,445.0,,445.0,['mandeel-katb-ketab'],2021-09-15
+26,IG,Y,1 robe,,449.0,50.0,499.0,,449.0,['robe'],2021-09-26
+28,IG,Y,8 robe,1,800.0,65.0,865.0,,800.0,['robe'],2021-09-26
+31,IG,Y,"42 box, 19 pin-cards, 23 bracelet-cards, 20 candle",,1706.4,45.0,1751.4,,1705.0,"['box', 'pin-cards', 'bracelet-cards', 'candle']",2021-09-29
+32,IG,Y,"1 robe, 1 slippers, 11 box",,793.0,45.0,838.0,,840.0,"['robe', 'slippers', 'box']",2021-09-29
+33,IG,N,2 slippers,,944.0,60.0,1004.0,,960.0,['slippers'],2021-10-10
+29,IG,Y,"13 robe, 14 fan",1,1720.0,72.0,2592.0,,1798.0,"['robe', 'fan']",2021-09-26
+19,IG,Y,1 robe,,320.0,45.0,365.0,,320.0,['robe'],2021-09-25
+17,NADINE,N,"4 robe, 2 slippers, 2 mug",,1746.0,0.0,1746.0,,1746.0,"['robe', 'slippers', 'mug']",2021-08-26
+35,IG,N,1 slippers,,110.0,45.0,155.0,,110.0,['slippers'],2021-11-13
+34,FB,N,"7 robe, 1 neon-sign",,2250.0,50.0,2300.0,,2250.0,"['robe', 'neon-sign']",2021-11-01
+36,IG,N,10 box,,450.0,65.0,515.0,,515.0,['box'],2021-11-13
+38,REFERRAL,N,2 candle,,100.0,50.0,150.0,,100.0,['candle'],2021-12-04
+41,FB,N,1 slippers,,110.0,50.0,160.0,,110.0,['slippers'],2021-12-11
+39,EMPLOYEE,N,2 box,,286.0,0.0,286.0,,286.0,['box'],2021-12-05
+40,EMPLOYEE,N,"2 notebook, 2 pen",,150.0,,150.0,,150.0,"['notebook', 'pen']",2021-12-05
+44,JUMIA,N,1 slippers,,190.0,10.0,200.0,,190.0,['slippers'],2021-12-18
+37,FB,N,"1 robe, 1 slippers",,1442.0,0.0,1442.0,,1442.0,"['robe', 'slippers']",2021-11-21
+46,NADINE,n,"1 bathrobe-pack, 1 mandeel-katb-ketab",,1110.0,0.0,1110.0,,1110.0,"['bathrobe-pack', 'mandeel-katb-ketab']",2022-01-02
+47,CALL,N,"8 robe, 2 slippers, 1 jerb",,3651.0,50.0,3701.0,,3701.0,"['robe', 'slippers', 'jerb']",2022-02-07
+42,ALEYA,N,"3 robe, 1 slippers, 1 mandeel-katb-ketab , 1 jerb",,1999.0,0.0,1999.0,,1999.0,"['robe', 'slippers', 'mandeel-katb-ketab', 'jerb']",2021-12-11
+49,FB,N,9 tshirt,,2340.0,50.0,2390.0,,2340.0,['tshirt'],2022-02-09
+48,FB,N,"1 robe, 1 slippers, 1 box",,488.0,50.0,538.0,,488.0,"['robe', 'slippers', 'box']",2022-02-09
+45,ALEYA,n,"1 robe, 1slippers, 1 mandeel-katb-ketab",,954.0,50.0,1004.0,,954.0,"['robe', 'mandeel-katb-ketab']",2022-01-02
+50,FB,Y,1 mandeel-katb-ketab,,500.0,50.0,550.0,,550.0,['mandeel-katb-ketab'],2022-02-20
+52,IG,Y,1 slippers,,110.0,50.0,160.0,,160.0,['slippers'],2022-02-24
+54,ALEYA,N,"6 robe, 2 tshirt, 1 hat",,2858.0,,2858.0,,2858.0,"['robe', 'tshirt', 'hat']",2022-03-06
+55,IG,N,1 mandeel-katb-ketab,,500.0,50.0,550.0,,500.0,['mandeel-katb-ketab'],2022-03-07
+51,IG,Y,1 shoes,,1800.0,50.0,1850.0,,1800.0,['shoes'],2022-02-21
+57,IG,N,"1 robe, 1slippers",,399.0,,399.0,,399.0,['robe'],2022-03-16
+53,FB,Y,1 mandeel-katb-ketab,,400.0,60.0,460.0,,400.0,['mandeel-katb-ketab'],2022-02-27
+56,IG,N,"2 robe, 50 balloons",,1293.0,60.0,1353.0,,1293.0,"['robe', 'balloons']",2022-03-08
+58,JUMIA,N,1 slippers,,86.0,0.0,86.0,,86.0,['slippers'],2022-04-01
+63,JUMIA,N,1 slippers,,86.0,40.0,,,86.0,['slippers'],2022-04-17
+64,JUMIA,N,1 slippers,,86.0,8.0,,,86.0,['slippers'],2022-04-27
+71,JUMIA,N,1 slippers,,86.0,10.0,,,,['slippers'],2022-05-04
+65,IG,Y,"1 slippers, 1 fan",,220.0,50.0,,,,"['slippers', 'fan']",2022-04-29
+66,WHATSAPP,Y,"1 mandeel-katb-ketab, 1 fan",,710.0,55.0,765.0,,,"['mandeel-katb-ketab', 'fan']",2022-04-29
+69,IG,Y,2 cap,,260.0,55.0,315.0,,,['cap'],2022-04-30
+75,JUMIA,N,2 slippers,,172.0,,,,,['slippers'],2022-05-20
+68,WHATSAPP,Y,1 box,,55.0,30.0,85.0,,,['box'],2022-04-30
+62,IG,N,"1 mandeel-katb-ketab, 1 bouquet",,1200.0,50.0,1250.0,,1250.0,"['mandeel-katb-ketab', 'bouquet']",2022-04-15
+72,EVENT,N,"1 notebook, 2 slippers, 1 cap, 2 fan, 1 mug",,750.0,,,,,"['notebook', 'slippers', 'cap', 'fan', 'mug']",2022-05-06
+70,IG,Y,1 mandeel-katb-ketab,,590.0,45.0,635.0,,,['mandeel-katb-ketab'],2022-05-04
+43,ALEYA,N,1 robe,,444.0,50.0,494.0,,444.0,['robe'],2021-12-11
+67,IG,Y,"1 robe, 1 bathrobe, 1 slippers, 1 shoes, 1 cufflinks, 1 manadeel, 1 cap",,5289.0,120.0,,,,"['robe', 'bathrobe', 'slippers', 'shoes', 'cufflinks', 'manadeel', 'cap']",2022-04-29
+61,EMPLOYEE,N,"1 mandeel-katb-ketab , 1 robe",,944.0,,,,944.0,"['mandeel-katb-ketab', 'robe']",2022-04-12
+73,WHATSAPP,Y,"11 mirror, 1 fan",,770.0,50.0,820.0,,,"['mirror', 'fan']",2022-05-09
+74,IG,Y,"1 mandeel-katb-ketab, 2 bathrobe, 1 slippers,1 pyjama, 1 hat, 5 robe, 3 mug",,6330.0,70.0,6400.0,,6330.0,"['mandeel-katb-ketab', 'bathrobe', 'slippers', 'pyjama', 'hat', 'robe', 'mug']",2022-05-23
+76,REFERRAL,N,"10 robe, 1 slippers",,3250.0,60.0,3310.0,,3250.0,"['robe', 'slippers']",2022-05-28
+78,IG,Y,1 mandeel-katb-ketab,,650.0,50.0,700.0,,700.0,['mandeel-katb-ketab'],2022-06-03
+84,NADINE,N,1 shabka-tray,,950.0,,,,950.0,['shabka-tray'],2022-06-10
+79,IG,Y,1 fan,,125.0,50.0,175.0,,125.0,['fan'],2022-02-06
+80,FB,N,1 fan,,125.0,50.0,175.0,,125.0,['fan'],2022-05-06
+81,IG,Y,1 pyjama,,900.0,70.0,970.0,,970.0,['pyjama'],2022-06-06
+85,NADINE,N,"1 welcome-board, 1 guest-book",,1650.0,150.0,1620.0,,1620.0,"['welcome-board', 'guest-book']",2022-06-13
+82,IG,N,"1 robe, 1 slippers, 1 veil, 1 fan, 2 tshirt",,1604.0,200.0,1804.0,,1604.0,"['robe', 'slippers', 'veil', 'fan', 'tshirt']",2022-06-09
+87,NADINE,N,1 slippers,,350.0,0.0,350.0,,350.0,['slippers'],2022-06-09
+77,IG,Y,"2 slippers, 2 robe , 1 manadeel, guest-book",,1950.0,60.0,2010.0,,1950.0,"['slippers', 'robe', 'manadeel']",2022-05-30
+86,FB,N,1 pyjama,,950.0,100.0,1050.0,,1050.0,['pyjama'],2022-06-21
+88,JUMIA,N,1 slippers,,150.0,,,,,['slippers'],2022-06-25
+89,JUMIA,N,1 slippers,,150.0,,,,,['slippers'],2022-06-28
+91,JUMIA,N,1 slippers,,150.0,,,,,['slippers'],2022-07-04
+92,JUMIA,N,1 slippers,,150.0,,,,,['slippers'],2022-07-15
+83,IG,N,"10 box, 10 cap, 1 baby-robe",,5570.0,150.0,5720.0,,,"['box', 'cap', 'baby-robe']",2022-06-13
+90,IG,N,"1 robe, 1 slippers, 1 veil",,850.0,70.0,920.0,,,"['robe', 'slippers', 'veil']",2022-07-01
+93,EMPLOYEE,N,"1 mug, 1 fan",,295.0,0.0,295.0,,,"['mug', 'fan']",2022-07-21
+94,NADINE,N,"1 neon-sign, 1 menu",,2720.0,0.0,2720.0,,,"['neon-sign', 'menu']",2022-07-25
+95,FB,N,"2 tshirt, 2 cap",,800.0,60.0,860.0,,,"['tshirt', 'cap']",2022-08-11
+96,IG,N,"2 slippers, 1 pyjama, 2 robe",,1800.0,60.0,1860.0,,,"['slippers', 'pyjama', 'robe']",2022-08-13
+97,NADINE,N,"1 neon-sign, 1 suit-pin",,2270.0,,2270.0,,,"['neon-sign', 'suit-pin']",2022-08-21
+98,REFERRAL,N,"welcome-board, 1 fan",,850.0,,850.0,,,['fan'],2022-08-21
+99,NADINE,N,"welcome-board, 1 fan",,855.0,,,,,['fan'],2022-08-20
+100,NADINE,N,"1 cap, 1 skirt, 12 sashes, 1 fan, 1 tshirt",,2400.0,,2400.0,,,"['cap', 'skirt', 'sashes', 'fan', 'tshirt']",2022-08-29
+101,EMPLOYEE,N,1 fan,,125.0,,,,,['fan'],2022-08-15
+102,IG,N,1 shabka-tray,,999.0,65.0,1064.0,,,['shabka-tray'],2022-09-06
+103,REFERRAL,N,1 mandeel-katb-ketab,,750.0,50.0,800.0,,,['mandeel-katb-ketab'],
+104,NADINE,N,1 mandeel-katb-ketab,,600.0,0.0,600.0,,,['mandeel-katb-ketab'],
+105,EMPLOYEE,N,"2 slippers, 1 fan , 2 kids-robe",,975.0,,975.0,,,"['slippers', 'fan', 'kids-robe']",2022-09-14
+106,NADINE,N,1 mandeel-katb-ketab,,450.0,50.0,500.0,,,['mandeel-katb-ketab'],2022-09-14
+107,FB,N,1 mandeel-katb-ketab,,650.0,50.0,700.0,,,['mandeel-katb-ketab'],2022-10-03
+108,JUMIA,N,1 slippers,,150.0,,,,,['slippers'],2022-10-03
+109,GENIE,N,1 welcome-board,,950.0,0.0,950.0,,,['welcome-board'],2022-10-05
+110,IG,N,2 box,,120.0,45.0,165.0,,,['box'],2022-10-08
+112,EMPLOYEE,N,"1 crown , 1 guest-book ,  2 giveaways, 1 zamzam-water, 1 lantern, 1 mirror, 1 mandeel",,1869.0,0.0,1869.0,,,"['crown', 'guest-book', 'giveaways', 'zamzam-water', 'lantern', 'mirror', 'mandeel']",2022-11-02
+111,NADINE,N,11 tshirt,,2750.0,,2750.0,,,['tshirt'],2022-10-06
+113,JUMIA,N,1 slippers,,150.0,,,,,['slippers'],2022-11-04
+114,EMPLOYEE,N,1 pin-flowers,,875.0,0.0,875.0,,,['pin-flowers'],2022-11-12
+115,IG,N,"19 robe, 17 makeup-bag, 17 bracelets, 17 box",,12090.0,250.0,12340.0,,7390.0,"['robe', 'makeup-bag', 'bracelets', 'box']",2022-11-17
+116,IG,N,1 guest-book,,670.0,60.0,395.0,,,['guest-book'],2022-11-26
+117,NADINE,N,"1 guest-book, 1 decorations, 8 sashes, 1 jacket-jeans",,2146.0,,,,,"['guest-book', 'decorations', 'sashes', 'jacket-jeans']",2022-11-30
+119,FB,N,"8 robe, 1 dress",,5337.0,,,,,"['robe', 'dress']",2022-12-09
+120,NADINE,N,"1 welcome-board, 1 neon-sign",,2950.0,,2950.0,,,"['welcome-board', 'neon-sign']",2023-01-18
+121,FB,N,1 mandeel-katb-ketab,,550.0,50.0,600.0,,,['mandeel-katb-ketab'],2023-01-19
+122,IG,N,1 mandeel-katb-ketab,,600.0,50.0,650.0,,,['mandeel-katb-ketab'],2023-02-19
+124,NADINE,N,"1 jerb, 1 fan",,1785.0,60.0,1845.0,,,"['jerb', 'fan']",2023-05-02
+123,NADINE,N,"300 picture, 300 seb7a, 300 bag",,19500.0,0.0,19500.0,,,"['picture', 'seb', 'bag']",2023-04-19
+130,IG,N,"1 fan, 1 jerb, 1 wooden-bride",,2180.0,0.0,2180.0,,,"['fan', 'jerb', 'wooden-bride']",2023-06-02
+131,FB,N,17 fan,,755.0,45.0,800.0,,,['fan'],2023-06-04
+127,GENIE,N,"7 robe,  1 slippers, 1 cap, 3 sashes",,2810.0,60.0,2870.0,,,"['robe', 'slippers', 'cap', 'sashes']",2023-05-31
+126,NOON,N,1 slippers,,143.0,0.0,143.0,,,['slippers'],2023-05-28
+133,JUMIA,N,1 slippers,,201.0,0.0,201.0,,,['slippers'],2023-06-24
+132,EMPLOYEE,N,1 fan,,200.0,0.0,200.0,,,['fan'],2023-06-21
+132,IG,N,"1 welcome-board, 1 bouquet",,1700.0,,1700.0,,,"['welcome-board', 'bouquet']",2023-06-22
+128,NOON,N,1 slippers,,143.0,0.0,143.0,,,['slippers'],2023-06-02
+125,IG,N,"14 bag, 2 cap, 2 resin-tray, 4 resin-plates",,7220.0,0.0,7220.0,,,"['bag', 'cap', 'resin-tray', 'resin-plates']",2023-05-09
+130,EMPLOYEE,N,"1 welcome-board, 15 bouquet,  19 flower-pin, 1 head-band, 50 fan, 1 welcome-board",,9280.0,60.0,9340.0,,,"['welcome-board', 'bouquet', 'flower-pin', 'head-band', 'fan', 'welcome-board']",2023-06-21
+134,NADINE,N,8 box,,480.0,70.0,550.0,,,['box'],2023-06-26
+135,IG,N,1 fan,,330.0,60.0,390.0,,,['fan'],2023-07-03
+136,NOON,N,1 slippers,,143.0,0.0,143.0,,,['slippers'],2023-07-11
+129,NADINE,N,"1 mandeel-katb-ketab, 16 groom-pin, 1 welcome-board, 1 stand",,2900.0,0.0,2900.0,,,"['mandeel-katb-ketab', 'groom-pin', 'welcome-board', 'stand']",2023-06-19
+137,NOON,N,1 robe,,257.0,0.0,257.0,,,['robe'],2023-07-18
+138,IG,N,1 fan,,150.0,60.0,210.0,,,['fan'],2023-07-28
+139,GENIE,N,"1 neon-sign, 1 mandeel-katb-ketab, 1 fan, 20 flower-pin, 1 jar",,5000.0,0.0,5000.0,,,"['neon-sign', 'mandeel-katb-ketab', 'fan', 'flower-pin', 'jar']",2023-08-01
+140,FB,N,"1 mandeel-katb-ketab, 2 robe, 1 slippers",,1700.0,70.0,1770.0,,,"['mandeel-katb-ketab', 'robe', 'slippers']",2023-08-12
+141,IG,N,1 mandeel-katb-ketab,,750.0,50.0,800.0,,,['mandeel-katb-ketab'],2023-08-20
+142,NOON,N,1 slippers,,100.0,0.0,100.0,,,['slippers'],2023-08-24
+144,IG,N,1 slippers,,110.0,65.0,175.0,,,['slippers'],2023-08-31
+143,GENIE,N,1 mandeel-katb-ketab,,700.0,0.0,700.0,,,['mandeel-katb-ketab'],2023-08-29
+144,FB,N,"1 mandeel-katb-ketab, 1 jerb, 1 online-invitation",,2000.0,70.0,2070.0,,,"['mandeel-katb-ketab', 'jerb', 'online-invitation']",2023-09-18
+145,NOON,N,1 slippers,,181.0,,181.0,,,['slippers'],2023-09-22
+146,GENIE,N,"1 welcome-board, 1 invitation",,1990.0,,1990.0,,,"['welcome-board', 'invitation']",2023-10-10
+147,EVENT,N,2 slippers,,260.0,0.0,260.0,,,['slippers'],2023-10-13
+148,NOON,N,1 slippers,,143.0,,143.0,,,['slippers'],2023-09-22
+149,EMPLOYEE,N,1 mandeel-katb-ketab,,100.0,,100.0,,,['mandeel-katb-ketab'],2023-10-25
+150,GENIE,N,"50 menu, 50 card, 50 fan",,3700.0,,3700.0,,,"['menu', 'card', 'fan']",2023-11-02
+153,IG,N,"9 robe, 1 slippers, 1 tar7a , 15 flower-bracelets",,4970.0,100.0,5070.0,,,"['robe', 'slippers', 'tar', 'flower-bracelets']",2023-11-15
+154,CALL,N,"1 pyjama, 1 slippers, 1 fan, 1 robe",,1420.0,70.0,1490.0,,,"['pyjama', 'slippers', 'fan', 'robe']",2023-11-22
+155,CALL,N,"1 resin-tray, 1 mandeel-katb-ketab",,2700.0,70.0,2770.0,,,"['resin-tray', 'mandeel-katb-ketab']",2023-11-23
+156,EVENT,N,1 balloons,,,,400.0,,,['balloons'],2023-11-27
+152,NOON,N,1 slippers,,212.0,,212.0,,,['slippers'],2023-11-14
+157,FB,N,1 neon-sign,,2450.0,70.0,2520.0,,,['neon-sign'],2023-11-29
+159,WHATSAPP,N,1 mandeel-katb-ketab,,750.0,100.0,850.0,,,['mandeel-katb-ketab'],2023-12-08
+158,WEBSITE,N,"20 candle, 30 keychain",,2200.0,70.0,2270.0,,,"['candle', 'keychain']",2023-12-06
+160,GENIE,N,"60 fan, 1 acrylic-tray, 75 water-stickers, 3 fan",,6435.0,70.0,6505.0,,,"['fan', 'acrylic-tray', 'water-stickers', 'fan']",2023-12-09
+161,FB,N,1 chocolate,,1500.0,70.0,1570.0,,,['chocolate'],2023-12-15
+162,FB,Y,1 christmas-box,,600.0,70.0,670.0,,,['christmas-box'],2023-12-17
+163,GENIE,N,1 jerb,,550.0,,550.0,,,['jerb'],2023-12-16
+164,EMPLOYEE,N,1 mandeel-katb-ketab,,550.0,,550.0,,,['mandeel-katb-ketab'],2023-12-25
+165,FB,Y,6 sashes,,840.0,,840.0,470.0,370.0,['sashes'],2024-01-21
+166,FB,Y,1 mirror,,750.0,70.0,820.0,500.0,320.0,['mirror'],2024-01-22
+167,IG,Y,"1 hat, 1 fan",,800.0,70.0,870.0,520.0,350.0,"['hat', 'fan']",2024-02-02
+170,FB,N,70 invitation,,2940.0,,2940.0,2030.0,910.0,['invitation'],2024-03-11
+169,GENIE,N,"1 mandeel-katb-ketab, 1 robe, 1 jerb, 1 flower-pin",,2280.0,100.0,2380.0,1634.0,746.0,"['mandeel-katb-ketab', 'robe', 'jerb', 'flower-pin']",2024-03-06
+171,GENIE,N,"15 robe, 15 box, slippers, 1 mirror, 100 fan, 1 frame, 1 wooden-box, 2 cap, 1 sign",,12200.0,175.0,12375.0,9840.0,2535.0,"['robe', 'box', 'mirror', 'fan', 'frame', 'wooden-box', 'cap', 'sign']",2024-03-17
+173,GENIE,N,"1 mandeel-katb-ketab, 1 jerb, 100 fan, 1 guest-book",,3325.0,100.0,3425.0,2630.5,794.5,"['mandeel-katb-ketab', 'jerb', 'fan', 'guest-book']",2024-03-26
+174,IG,N,10 bridesmaid-box,,5000.0,,5000.0,4017.5,982.5,['bridesmaid-box'],2024-04-01
+176,WEBSITE,N,2 boutonniere,,80.0,,80.0,68.0,12.0,['boutonniere'],2024-04-03
+177,WEBSITE,N,"1 dress, 1 kids-sign, 1 pet-attire",,1100.0,125.0,1225.0,1030.0,195.0,"['dress', 'kids-sign', 'pet-attire']",2024-04-03
+178,GENIE,N,"1 mandeel-katb-ketab, 50 hat, 1 bouquet, 10 corsage, 12 flower-pin",,8100.0,,8100.0,6767.0,1333.0,"['mandeel-katb-ketab', 'hat', 'bouquet', 'corsage', 'flower-pin']",2024-04-04
+179,WEBSITE,N,"18 socks, 14 robe, 1 mandeel-katb-ketab",,5510.0,,5510.0,4510.5,999.5,"['socks', 'robe', 'mandeel-katb-ketab']",2024-04-09
+180,NADINE,N,"2 cap, 1 hat, 1 fan",,1080.0,70.0,1150.0,934.0,216.0,"['cap', 'hat', 'fan']",2024-04-14
+181,CALL,N,"1 slippers, 1 fan",,570.0,,570.0,,570.0,"['slippers', 'fan']",2024-04-15
+182,IG,N,1 bridesmaid-box,,500.0,100.0,600.0,556.0,44.0,['bridesmaid-box'],2024-04-16
+183,WEBSITE,N,"5 scrunches, 6 tshirt, 1 pet-veil, welcome-board, 1 stand, 1 dress",,4625.0,,4625.0,3443.5,1181.5,"['scrunches', 'tshirt', 'pet-veil', 'stand', 'dress']",2024-04-20
+185,GENIE,N,1 mandeel-katb-ketab,,550.0,75.0,625.0,542.5,82.5,['mandeel-katb-ketab'],2024-04-25
+186,WEBSITE,N,"1 robe, 1 fan, 1 slippers",,900.0,,900.0,680.0,220.0,"['robe', 'fan', 'slippers']",2024-04-27
+175,JUMIA,N,1 cap,,350.0,,,,282.0,['cap'],2024-05-01
+188,GENIE,N,"1 mandeel-katb-ketab, 3 chocolate",,4075.0,,4075.0,3282.0,793.0,"['mandeel-katb-ketab', 'chocolate']",2024-05-01
+189,FB,N,15 sashes,,1650.0,,1650.0,1200.0,450.0,['sashes'],2024-05-04
+190,GENIE,N,"2.5 chocolate, 150 rosary",,7525.0,100.0,7625.0,5365.0,2128.0,"['chocolate', 'rosary']",2024-05-07
+187,JUMIA,N,1 slippers,,157.8,,157.8,,157.8,['slippers'],2024-05-01
+192,WEBSITE,Y,1 hat,,380.0,,380.0,304.0,76.0,['hat'],2024-05-20
+194,WEBSITE,Y,4 sunglasses,,760.0,,760.0,608.0,152.0,['sunglasses'],2024-05-25
+195,WEBSITE,N,9 scrunches,,315.0,,315.0,252.0,63.0,['scrunches'],2024-06-04
+197,WEBSITE,N,"1 mandeel-katb-ketab, 1 guest-book, 1 welcome-board",,2200.0,,2200.0,1762.5,437.5,"['mandeel-katb-ketab', 'guest-book', 'welcome-board']",2024-06-08
+198,WEBSITE,N,"1 hat, 12 socks",,1748.0,,1750.0,1556.0,194.0,"['hat', 'socks']",2024-06-23
+191,WEBSITE,Y,"9 sashes, 9 keychain, 9 scrunches, 9 makeup-bag, 10 flower-pin, 1 corsage, 16 bowtie, 26 bracelets, 190 fan",,8589.0,,8754.0,7350.5,1295.5,"['sashes', 'keychain', 'scrunches', 'makeup-bag', 'flower-pin', 'corsage', 'bowtie', 'bracelets', 'fan']",2024-05-13
+200,GENIE,N,kids-set,,690.0,,690.0,600.0,90.0,[],2024-06-27
+196,WEBSITE,N,16 scrunches,,560.0,,560.0,448.0,112.0,['scrunches'],2024-06-07
+199,REFERRAL,N,1 mandeel-katb-ketab,,500.0,,500.0,425.0,75.0,['mandeel-katb-ketab'],2024-06-29
+184,CALL,N,1 acrylic-door-hanger,,500.0,,500.0,400.0,100.0,['acrylic-door-hanger'],2024-04-23
+202,GENIE,N,1 mandeel-katb-ketab,,550.0,,550.0,424.0,125.0,['mandeel-katb-ketab'],2024-07-06
+201,WEBSITE,N,kids-sign,,300.0,,300.0,240.0,60.0,[],2024-07-04
+204,FB,N,"10 robe, 3 kids-robe, 13 fan, 1 pyjama",,4445.0,,4445.0,3816.0,629.0,"['robe', 'kids-robe', 'fan', 'pyjama']",2024-07-14
+204,WHATSAPP,N,"1 robe, 1 slippers, 5 fan",,770.0,,770.0,544.0,226.0,"['robe', 'slippers', 'fan']",2024-07-19
+193,WEBSITE,Y,"1 pet-veil, travel-kit, 13 cup",,7300.0,,7300.0,6080.0,1220.0,"['pet-veil', 'cup']",2024-05-20
+203,GENIE,N,"8 box, 8 scrunches, 8 makeup-bag, 7 fan, 8 keychain",,2890.0,65.0,2955.0,2397.0,558.0,"['box', 'scrunches', 'makeup-bag', 'fan', 'keychain']",2024-07-14
+206,FB,N,1 fan,,250.0,,250.0,200.0,50.0,['fan'],2024-07-24
+168,GENIE,N,"165 candle, 1 welcome-board, 1 jerb, 40 water-stickers, 4 corsage, 5 flower-pin",,11895.0,70.0,11965.0,1460.0,4352.0,"['candle', 'welcome-board', 'jerb', 'water-stickers', 'corsage', 'flower-pin']",2024-02-03
+205,GENIE,N,"200 favours, 1 welcome-board",,18900.0,,18900.0,15600.0,3300.0,"['favours', 'welcome-board']",2024-07-24
+172,GENIE,N,"12 robe, 12 box, 1 bouquet, flower-pin",,5610.0,175.0,5785.0,,1122.0,"['robe', 'box', 'bouquet']",2024-03-25
+207,GENIE,N,"1 mabkhra, 1 mandeel-katb-ketab",,1500.0,,1500.0,,,"['mabkhra', 'mandeel-katb-ketab']",2024-08-03
