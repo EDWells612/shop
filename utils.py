@@ -90,3 +90,20 @@ def get_items_input(items):
 def update_csv(new_data):
     new_data.to_csv('shop.csv', index=False)
     st.success("CSV file updated successfully!")
+
+def sum_item_amounts(df, column_name):
+    item_sums = {}
+    for row in df[column_name]:
+        pairs = row.split(', ')
+        for pair in pairs:
+            if pair == '':
+                continue
+            amount, item = pair.split(' ', 1)
+            amount = int(amount)
+            if item in item_sums:
+                item_sums[item] += amount
+            else:
+                item_sums[item] = amount
+    result_df = pd.DataFrame(list(item_sums.items()), columns=['Item', 'Total Amount']).set_index(column_name)
+    
+    return result_df
