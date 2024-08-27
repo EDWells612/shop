@@ -87,10 +87,6 @@ def get_items_input(items):
     st.write(res)
     return res
 
-def update_csv(new_data):
-    new_data.to_csv('shop.csv', index=False)
-    st.success("CSV file updated successfully!")
-
 def sum_item_amounts(df, column_name):
     item_sums = {}
     for row in df[column_name]:
