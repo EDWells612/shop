@@ -2,5 +2,4 @@ streamlit
 pandas
 matplotlib
 mlxtend
-gspread 
-gspread-dataframe
+st-gsheets-connection
