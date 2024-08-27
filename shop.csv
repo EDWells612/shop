@@ -43,13 +43,13 @@ Job #,Channel,Ad,Item,rent,Amount,Shipping,Total Amount,Paid by F,Farahy Income,
 42,ALEYA,N,"3 robe, 1 slippers, 1 mandeel-katb-ketab , 1 jerb",,1999.0,0.0,1999.0,,1999.0,"['robe', 'slippers', 'mandeel-katb-ketab', 'jerb']",2021-12-11
 49,FB,N,9 tshirt,,2340.0,50.0,2390.0,,2340.0,['tshirt'],2022-02-09
 48,FB,N,"1 robe, 1 slippers, 1 box",,488.0,50.0,538.0,,488.0,"['robe', 'slippers', 'box']",2022-02-09
-45,ALEYA,n,"1 robe, 1slippers, 1 mandeel-katb-ketab",,954.0,50.0,1004.0,,954.0,"['robe', 'mandeel-katb-ketab']",2022-01-02
+45,ALEYA,n,"1 robe, 1 slippers, 1 mandeel-katb-ketab",,954.0,50.0,1004.0,,954.0,"['robe', 'mandeel-katb-ketab']",2022-01-02
 50,FB,Y,1 mandeel-katb-ketab,,500.0,50.0,550.0,,550.0,['mandeel-katb-ketab'],2022-02-20
 52,IG,Y,1 slippers,,110.0,50.0,160.0,,160.0,['slippers'],2022-02-24
 54,ALEYA,N,"6 robe, 2 tshirt, 1 hat",,2858.0,,2858.0,,2858.0,"['robe', 'tshirt', 'hat']",2022-03-06
 55,IG,N,1 mandeel-katb-ketab,,500.0,50.0,550.0,,500.0,['mandeel-katb-ketab'],2022-03-07
 51,IG,Y,1 shoes,,1800.0,50.0,1850.0,,1800.0,['shoes'],2022-02-21
-57,IG,N,"1 robe, 1slippers",,399.0,,399.0,,399.0,['robe'],2022-03-16
+57,IG,N,"1 robe, 1 slippers",,399.0,,399.0,,399.0,['robe'],2022-03-16
 53,FB,Y,1 mandeel-katb-ketab,,400.0,60.0,460.0,,400.0,['mandeel-katb-ketab'],2022-02-27
 56,IG,N,"2 robe, 50 balloons",,1293.0,60.0,1353.0,,1293.0,"['robe', 'balloons']",2022-03-08
 58,JUMIA,N,1 slippers,,86.0,0.0,86.0,,86.0,['slippers'],2022-04-01
@@ -68,7 +68,7 @@ Job #,Channel,Ad,Item,rent,Amount,Shipping,Total Amount,Paid by F,Farahy Income,
 67,IG,Y,"1 robe, 1 bathrobe, 1 slippers, 1 shoes, 1 cufflinks, 1 manadeel, 1 cap",,5289.0,120.0,,,,"['robe', 'bathrobe', 'slippers', 'shoes', 'cufflinks', 'manadeel', 'cap']",2022-04-29
 61,EMPLOYEE,N,"1 mandeel-katb-ketab , 1 robe",,944.0,,,,944.0,"['mandeel-katb-ketab', 'robe']",2022-04-12
 73,WHATSAPP,Y,"11 mirror, 1 fan",,770.0,50.0,820.0,,,"['mirror', 'fan']",2022-05-09
-74,IG,Y,"1 mandeel-katb-ketab, 2 bathrobe, 1 slippers,1 pyjama, 1 hat, 5 robe, 3 mug",,6330.0,70.0,6400.0,,6330.0,"['mandeel-katb-ketab', 'bathrobe', 'slippers', 'pyjama', 'hat', 'robe', 'mug']",2022-05-23
+74,IG,Y,"1 mandeel-katb-ketab, 2 bathrobe, 1 slippers, 1 pyjama, 1 hat, 5 robe, 3 mug",,6330.0,70.0,6400.0,,6330.0,"['mandeel-katb-ketab', 'bathrobe', 'slippers', 'pyjama', 'hat', 'robe', 'mug']",2022-05-23
 76,REFERRAL,N,"10 robe, 1 slippers",,3250.0,60.0,3310.0,,3250.0,"['robe', 'slippers']",2022-05-28
 78,IG,Y,1 mandeel-katb-ketab,,650.0,50.0,700.0,,700.0,['mandeel-katb-ketab'],2022-06-03
 84,NADINE,N,1 shabka-tray,,950.0,,,,950.0,['shabka-tray'],2022-06-10
@@ -78,7 +78,7 @@ Job #,Channel,Ad,Item,rent,Amount,Shipping,Total Amount,Paid by F,Farahy Income,
 85,NADINE,N,"1 welcome-board, 1 guest-book",,1650.0,150.0,1620.0,,1620.0,"['welcome-board', 'guest-book']",2022-06-13
 82,IG,N,"1 robe, 1 slippers, 1 veil, 1 fan, 2 tshirt",,1604.0,200.0,1804.0,,1604.0,"['robe', 'slippers', 'veil', 'fan', 'tshirt']",2022-06-09
 87,NADINE,N,1 slippers,,350.0,0.0,350.0,,350.0,['slippers'],2022-06-09
-77,IG,Y,"2 slippers, 2 robe , 1 manadeel, guest-book",,1950.0,60.0,2010.0,,1950.0,"['slippers', 'robe', 'manadeel']",2022-05-30
+77,IG,Y,"2 slippers, 2 robe , 1 manadeel, 1 guest-book",,1950.0,60.0,2010.0,,1950.0,"['slippers', 'robe', 'manadeel']",2022-05-30
 86,FB,N,1 pyjama,,950.0,100.0,1050.0,,1050.0,['pyjama'],2022-06-21
 88,JUMIA,N,1 slippers,,150.0,,,,,['slippers'],2022-06-25
 89,JUMIA,N,1 slippers,,150.0,,,,,['slippers'],2022-06-28
@@ -91,8 +91,8 @@ Job #,Channel,Ad,Item,rent,Amount,Shipping,Total Amount,Paid by F,Farahy Income,
 95,FB,N,"2 tshirt, 2 cap",,800.0,60.0,860.0,,,"['tshirt', 'cap']",2022-08-11
 96,IG,N,"2 slippers, 1 pyjama, 2 robe",,1800.0,60.0,1860.0,,,"['slippers', 'pyjama', 'robe']",2022-08-13
 97,NADINE,N,"1 neon-sign, 1 suit-pin",,2270.0,,2270.0,,,"['neon-sign', 'suit-pin']",2022-08-21
-98,REFERRAL,N,"welcome-board, 1 fan",,850.0,,850.0,,,['fan'],2022-08-21
-99,NADINE,N,"welcome-board, 1 fan",,855.0,,,,,['fan'],2022-08-20
+98,REFERRAL,N,"1 welcome-board, 1 fan",,850.0,,850.0,,,['fan'],2022-08-21
+99,NADINE,N,"1 welcome-board, 1 fan",,855.0,,,,,['fan'],2022-08-20
 100,NADINE,N,"1 cap, 1 skirt, 12 sashes, 1 fan, 1 tshirt",,2400.0,,2400.0,,,"['cap', 'skirt', 'sashes', 'fan', 'tshirt']",2022-08-29
 101,EMPLOYEE,N,1 fan,,125.0,,,,,['fan'],2022-08-15
 102,IG,N,1 shabka-tray,,999.0,65.0,1064.0,,,['shabka-tray'],2022-09-06
@@ -104,7 +104,7 @@ Job #,Channel,Ad,Item,rent,Amount,Shipping,Total Amount,Paid by F,Farahy Income,
 108,JUMIA,N,1 slippers,,150.0,,,,,['slippers'],2022-10-03
 109,GENIE,N,1 welcome-board,,950.0,0.0,950.0,,,['welcome-board'],2022-10-05
 110,IG,N,2 box,,120.0,45.0,165.0,,,['box'],2022-10-08
-112,EMPLOYEE,N,"1 crown , 1 guest-book ,  2 giveaways, 1 zamzam-water, 1 lantern, 1 mirror, 1 mandeel",,1869.0,0.0,1869.0,,,"['crown', 'guest-book', 'giveaways', 'zamzam-water', 'lantern', 'mirror', 'mandeel']",2022-11-02
+112,EMPLOYEE,N,"1 crown, 1 guest-book, 2 giveaways, 1 zamzam-water, 1 lantern, 1 mirror, 1 mandeel",,1869.0,0.0,1869.0,,,"['crown', 'guest-book', 'giveaways', 'zamzam-water', 'lantern', 'mirror', 'mandeel']",2022-11-02
 111,NADINE,N,11 tshirt,,2750.0,,2750.0,,,['tshirt'],2022-10-06
 113,JUMIA,N,1 slippers,,150.0,,,,,['slippers'],2022-11-04
 114,EMPLOYEE,N,1 pin-flowers,,875.0,0.0,875.0,,,['pin-flowers'],2022-11-12
@@ -119,14 +119,14 @@ Job #,Channel,Ad,Item,rent,Amount,Shipping,Total Amount,Paid by F,Farahy Income,
 123,NADINE,N,"300 picture, 300 seb7a, 300 bag",,19500.0,0.0,19500.0,,,"['picture', 'seb', 'bag']",2023-04-19
 130,IG,N,"1 fan, 1 jerb, 1 wooden-bride",,2180.0,0.0,2180.0,,,"['fan', 'jerb', 'wooden-bride']",2023-06-02
 131,FB,N,17 fan,,755.0,45.0,800.0,,,['fan'],2023-06-04
-127,GENIE,N,"7 robe,  1 slippers, 1 cap, 3 sashes",,2810.0,60.0,2870.0,,,"['robe', 'slippers', 'cap', 'sashes']",2023-05-31
+127,GENIE,N,"7 robe, 1 slippers, 1 cap, 3 sashes",,2810.0,60.0,2870.0,,,"['robe', 'slippers', 'cap', 'sashes']",2023-05-31
 126,NOON,N,1 slippers,,143.0,0.0,143.0,,,['slippers'],2023-05-28
 133,JUMIA,N,1 slippers,,201.0,0.0,201.0,,,['slippers'],2023-06-24
 132,EMPLOYEE,N,1 fan,,200.0,0.0,200.0,,,['fan'],2023-06-21
 132,IG,N,"1 welcome-board, 1 bouquet",,1700.0,,1700.0,,,"['welcome-board', 'bouquet']",2023-06-22
 128,NOON,N,1 slippers,,143.0,0.0,143.0,,,['slippers'],2023-06-02
 125,IG,N,"14 bag, 2 cap, 2 resin-tray, 4 resin-plates",,7220.0,0.0,7220.0,,,"['bag', 'cap', 'resin-tray', 'resin-plates']",2023-05-09
-130,EMPLOYEE,N,"1 welcome-board, 15 bouquet,  19 flower-pin, 1 head-band, 50 fan, 1 welcome-board",,9280.0,60.0,9340.0,,,"['welcome-board', 'bouquet', 'flower-pin', 'head-band', 'fan', 'welcome-board']",2023-06-21
+130,EMPLOYEE,N,"1 welcome-board, 15 bouquet, 19 flower-pin, 1 head-band, 50 fan, 1 welcome-board",,9280.0,60.0,9340.0,,,"['welcome-board', 'bouquet', 'flower-pin', 'head-band', 'fan', 'welcome-board']",2023-06-21
 134,NADINE,N,8 box,,480.0,70.0,550.0,,,['box'],2023-06-26
 135,IG,N,1 fan,,330.0,60.0,390.0,,,['fan'],2023-07-03
 136,NOON,N,1 slippers,,143.0,0.0,143.0,,,['slippers'],2023-07-11
@@ -164,7 +164,7 @@ Job #,Channel,Ad,Item,rent,Amount,Shipping,Total Amount,Paid by F,Farahy Income,
 167,IG,Y,"1 hat, 1 fan",,800.0,70.0,870.0,520.0,350.0,"['hat', 'fan']",2024-02-02
 170,FB,N,70 invitation,,2940.0,,2940.0,2030.0,910.0,['invitation'],2024-03-11
 169,GENIE,N,"1 mandeel-katb-ketab, 1 robe, 1 jerb, 1 flower-pin",,2280.0,100.0,2380.0,1634.0,746.0,"['mandeel-katb-ketab', 'robe', 'jerb', 'flower-pin']",2024-03-06
-171,GENIE,N,"15 robe, 15 box, slippers, 1 mirror, 100 fan, 1 frame, 1 wooden-box, 2 cap, 1 sign",,12200.0,175.0,12375.0,9840.0,2535.0,"['robe', 'box', 'mirror', 'fan', 'frame', 'wooden-box', 'cap', 'sign']",2024-03-17
+171,GENIE,N,"15 robe, 15 box, 1 slippers, 1 mirror, 100 fan, 1 frame, 1 wooden-box, 2 cap, 1 sign",,12200.0,175.0,12375.0,9840.0,2535.0,"['robe', 'box', 'mirror', 'fan', 'frame', 'wooden-box', 'cap', 'sign']",2024-03-17
 173,GENIE,N,"1 mandeel-katb-ketab, 1 jerb, 100 fan, 1 guest-book",,3325.0,100.0,3425.0,2630.5,794.5,"['mandeel-katb-ketab', 'jerb', 'fan', 'guest-book']",2024-03-26
 174,IG,N,10 bridesmaid-box,,5000.0,,5000.0,4017.5,982.5,['bridesmaid-box'],2024-04-01
 176,WEBSITE,N,2 boutonniere,,80.0,,80.0,68.0,12.0,['boutonniere'],2024-04-03
@@ -174,13 +174,13 @@ Job #,Channel,Ad,Item,rent,Amount,Shipping,Total Amount,Paid by F,Farahy Income,
 180,NADINE,N,"2 cap, 1 hat, 1 fan",,1080.0,70.0,1150.0,934.0,216.0,"['cap', 'hat', 'fan']",2024-04-14
 181,CALL,N,"1 slippers, 1 fan",,570.0,,570.0,,570.0,"['slippers', 'fan']",2024-04-15
 182,IG,N,1 bridesmaid-box,,500.0,100.0,600.0,556.0,44.0,['bridesmaid-box'],2024-04-16
-183,WEBSITE,N,"5 scrunches, 6 tshirt, 1 pet-veil, welcome-board, 1 stand, 1 dress",,4625.0,,4625.0,3443.5,1181.5,"['scrunches', 'tshirt', 'pet-veil', 'stand', 'dress']",2024-04-20
+183,WEBSITE,N,"5 scrunches, 6 tshirt, 1 pet-veil, 1 welcome-board, 1 stand, 1 dress",,4625.0,,4625.0,3443.5,1181.5,"['scrunches', 'tshirt', 'pet-veil', 'stand', 'dress']",2024-04-20
 185,GENIE,N,1 mandeel-katb-ketab,,550.0,75.0,625.0,542.5,82.5,['mandeel-katb-ketab'],2024-04-25
 186,WEBSITE,N,"1 robe, 1 fan, 1 slippers",,900.0,,900.0,680.0,220.0,"['robe', 'fan', 'slippers']",2024-04-27
 175,JUMIA,N,1 cap,,350.0,,,,282.0,['cap'],2024-05-01
 188,GENIE,N,"1 mandeel-katb-ketab, 3 chocolate",,4075.0,,4075.0,3282.0,793.0,"['mandeel-katb-ketab', 'chocolate']",2024-05-01
 189,FB,N,15 sashes,,1650.0,,1650.0,1200.0,450.0,['sashes'],2024-05-04
-190,GENIE,N,"2.5 chocolate, 150 rosary",,7525.0,100.0,7625.0,5365.0,2128.0,"['chocolate', 'rosary']",2024-05-07
+190,GENIE,N,"2 chocolate, 150 rosary",,7525.0,100.0,7625.0,5365.0,2128.0,"['chocolate', 'rosary']",2024-05-07
 187,JUMIA,N,1 slippers,,157.8,,157.8,,157.8,['slippers'],2024-05-01
 192,WEBSITE,Y,1 hat,,380.0,,380.0,304.0,76.0,['hat'],2024-05-20
 194,WEBSITE,Y,4 sunglasses,,760.0,,760.0,608.0,152.0,['sunglasses'],2024-05-25
@@ -188,18 +188,18 @@ Job #,Channel,Ad,Item,rent,Amount,Shipping,Total Amount,Paid by F,Farahy Income,
 197,WEBSITE,N,"1 mandeel-katb-ketab, 1 guest-book, 1 welcome-board",,2200.0,,2200.0,1762.5,437.5,"['mandeel-katb-ketab', 'guest-book', 'welcome-board']",2024-06-08
 198,WEBSITE,N,"1 hat, 12 socks",,1748.0,,1750.0,1556.0,194.0,"['hat', 'socks']",2024-06-23
 191,WEBSITE,Y,"9 sashes, 9 keychain, 9 scrunches, 9 makeup-bag, 10 flower-pin, 1 corsage, 16 bowtie, 26 bracelets, 190 fan",,8589.0,,8754.0,7350.5,1295.5,"['sashes', 'keychain', 'scrunches', 'makeup-bag', 'flower-pin', 'corsage', 'bowtie', 'bracelets', 'fan']",2024-05-13
-200,GENIE,N,kids-set,,690.0,,690.0,600.0,90.0,[],2024-06-27
+200,GENIE,N,1 kids-set,,690.0,,690.0,600.0,90.0,[],2024-06-27
 196,WEBSITE,N,16 scrunches,,560.0,,560.0,448.0,112.0,['scrunches'],2024-06-07
 199,REFERRAL,N,1 mandeel-katb-ketab,,500.0,,500.0,425.0,75.0,['mandeel-katb-ketab'],2024-06-29
 184,CALL,N,1 acrylic-door-hanger,,500.0,,500.0,400.0,100.0,['acrylic-door-hanger'],2024-04-23
 202,GENIE,N,1 mandeel-katb-ketab,,550.0,,550.0,424.0,125.0,['mandeel-katb-ketab'],2024-07-06
-201,WEBSITE,N,kids-sign,,300.0,,300.0,240.0,60.0,[],2024-07-04
+201,WEBSITE,N,1 kids-sign,,300.0,,300.0,240.0,60.0,['kids-sign'],2024-07-04
 204,FB,N,"10 robe, 3 kids-robe, 13 fan, 1 pyjama",,4445.0,,4445.0,3816.0,629.0,"['robe', 'kids-robe', 'fan', 'pyjama']",2024-07-14
 204,WHATSAPP,N,"1 robe, 1 slippers, 5 fan",,770.0,,770.0,544.0,226.0,"['robe', 'slippers', 'fan']",2024-07-19
-193,WEBSITE,Y,"1 pet-veil, travel-kit, 13 cup",,7300.0,,7300.0,6080.0,1220.0,"['pet-veil', 'cup']",2024-05-20
+193,WEBSITE,Y,"1 pet-veil, 1 travel-kit, 13 cup",,7300.0,,7300.0,6080.0,1220.0,"['pet-veil', 'cup']",2024-05-20
 203,GENIE,N,"8 box, 8 scrunches, 8 makeup-bag, 7 fan, 8 keychain",,2890.0,65.0,2955.0,2397.0,558.0,"['box', 'scrunches', 'makeup-bag', 'fan', 'keychain']",2024-07-14
 206,FB,N,1 fan,,250.0,,250.0,200.0,50.0,['fan'],2024-07-24
 168,GENIE,N,"165 candle, 1 welcome-board, 1 jerb, 40 water-stickers, 4 corsage, 5 flower-pin",,11895.0,70.0,11965.0,1460.0,4352.0,"['candle', 'welcome-board', 'jerb', 'water-stickers', 'corsage', 'flower-pin']",2024-02-03
 205,GENIE,N,"200 favours, 1 welcome-board",,18900.0,,18900.0,15600.0,3300.0,"['favours', 'welcome-board']",2024-07-24
-172,GENIE,N,"12 robe, 12 box, 1 bouquet, flower-pin",,5610.0,175.0,5785.0,,1122.0,"['robe', 'box', 'bouquet']",2024-03-25
+172,GENIE,N,"12 robe, 12 box, 1 bouquet, 1 flower-pin",,5610.0,175.0,5785.0,,1122.0,"['robe', 'box', 'bouquet']",2024-03-25
 207,GENIE,N,"1 mabkhra, 1 mandeel-katb-ketab",,1500.0,,1500.0,,,"['mabkhra', 'mandeel-katb-ketab']",2024-08-03
