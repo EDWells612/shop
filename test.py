@@ -1,6 +1,7 @@
 import streamlit as st
+import matplotlib.pyplot as plt
 import pandas as pd
-from utils import parse_items, plot_items_in_channel, plot_item_distribution, perform_apriori_analysis, get_items, get_list_items, get_items_input, update_csv
+from utils import parse_items, plot_items_in_channel, plot_item_distribution, perform_apriori_analysis, get_items, get_list_items, get_items_input, update_csv, sum_item_amounts
 
 # Load data
 data = pd.read_csv('shop.csv', parse_dates=['date'])
@@ -44,18 +45,21 @@ if page == "Home":
 elif page == "Channels":
     channel = st.sidebar.selectbox('Select Channel', ['All'] + list(data['Channel'].unique()))    
     if channel != 'All':
-        filtered_data = filtered_data[filtered_data['Channel'] == channel]
+        channel_data = filtered_data[filtered_data['Channel'] == channel]
+    else:
+        channel_data = filtered_data
 
     if not filtered_data.empty:
-        filtered_data.set_index('date', inplace=True)
-        st.line_chart(filtered_data['Total Amount'].resample('M').sum())
+        st.write(channel_data)
+        channel_data.set_index('date', inplace=True)
+        st.line_chart(channel_data['Total Amount'].resample('M').sum())
         st.write(f'Summary statistics for {"All channels" if channel == "All" else channel}')
-        st.write(filtered_data.describe())
+        st.write(channel_data.describe())
         st.write(f'Items bought in {"all channels" if channel == "All" else channel}')
-        plot_items_in_channel(filtered_data, channel)
+        plot_items_in_channel(channel_data, channel)
 
         st.write(f"Apriori analysis for {'all channels' if channel == 'All' else channel}")
-        rules = perform_apriori_analysis(filtered_data, min_support=0.1, metric="lift", min_threshold=1.0)
+        rules = perform_apriori_analysis(channel_data, min_support=0.1, metric="lift", min_threshold=1.0)
         if not rules.empty:
             st.write(rules[['antecedents', 'consequents', 'support', 'confidence', 'lift']])
         else:
@@ -70,6 +74,18 @@ elif page == "Items":
     if item:
         st.write(f'Distribution of {item}')
         plot_item_distribution(filtered_data, item)
+        col1, col2= st.columns(2)
+        item_data = filtered_data[filtered_data['items'].apply(lambda x: item in parse_items(x))]
+        num_items_sold = sum_item_amounts(item_data, 'Item').loc[item]
+        num_customers = item_data['Job #'].nunique()
+        col1.metric("Number of items Sold", num_items_sold)
+        col2.metric("Number of Clustomers", num_customers)
+        ad_data = item_data[item_data['Ad'] == 'Y'].notna().count()
+        organic_data = item_data[item_data['Ad'] == 'N'].notna().count()
+        fig, ax = plt.subplots(figsize=(10, 5))
+        ax.pie([ad_data['Ad'], organic_data['Ad']], labels=['Ad', 'Organic'], autopct='%1.1f%%')
+        ax.set_title(f'Ad vs Organic distribution of {item}')
+        st.pyplot(fig)
 # data entry page
 elif page == "New Entry":
     st.title("New Entry")
