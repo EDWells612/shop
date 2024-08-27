@@ -1,10 +1,16 @@
 import streamlit as st
 import matplotlib.pyplot as plt
 import pandas as pd
-from utils import parse_items, plot_items_in_channel, plot_item_distribution, perform_apriori_analysis, get_items, get_list_items, get_items_input, update_csv, sum_item_amounts
+from streamlit_gsheets import GSheetsConnection
+from utils import parse_items, plot_items_in_channel, plot_item_distribution, perform_apriori_analysis, get_items, get_list_items, get_items_input, sum_item_amounts
+
+from streamlit_gsheets import GSheetsConnection
 
 # Load data
-data = pd.read_csv('shop.csv', parse_dates=['date'])
+# data = pd.read_csv('shop.csv', parse_dates=['date'])
+conn = st.connection("gsheets", type=GSheetsConnection)
+data = conn.read(worksheet="shop")
+data['date'] = pd.to_datetime(data['date'])
 itemsList = get_items(data)
 # Navigation
 page = st.sidebar.selectbox("Select Page", ["Home", "Channels", "Items", "New Entry"])
@@ -39,7 +45,7 @@ if page == "Home":
         if st.button("Save Changes"):
             # Update original data
             data.update(edited_data)
-            update_csv(data)
+            conn.update(data=data, worksheet="shop")
 
 # Channels page
 elif page == "Channels":
@@ -131,6 +137,6 @@ elif page == "New Entry":
         st.success("New entry added successfully!")
         st.balloons()
         st.write(data.tail(1))
-        data.to_csv('shop.csv', index=False)
+        conn.update(data=data, worksheet="shop")
         # clear session state
         st.session_state.clear()
