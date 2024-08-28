@@ -51,11 +51,11 @@ if page == "Home":
         n = 1
         if (len(filtered_data) > 1):
             n = st.slider('Number of rows to view', 1, len(filtered_data), len(filtered_data))
-        edited_data = st.data_editor(filtered_data.head(n),key = 'data_editor')
+        edited_data = st.data_editor(filtered_data.iloc[:n],key = 'data_editor', num_rows = 'dynamic')
         if st.button("Save Changes"):
             # Update original data
             data.update(edited_data)
-            conn.update(data=data, worksheet="shop")
+            conn.update(data=edited_data, worksheet="shop")
             update()
 
 # Channels page
@@ -113,7 +113,7 @@ elif page == "New Entry":
         cnls = data['Channel'].unique().tolist()
         channel = col3.selectbox("Channel", ["New Channel"] + cnls, index=None)
         if (channel == "New Channel"):
-            channel = col3.text_input("Channel", "")
+            channel = col3.text_input("Channel", "").strip().upper()
         with col4:
             ad = st.checkbox("Ad", value=False)
             rent = st.checkbox("Rent", value=False)
