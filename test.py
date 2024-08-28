@@ -4,7 +4,15 @@ import pandas as pd
 from streamlit_gsheets import GSheetsConnection
 from utils import parse_items, plot_items_in_channel, plot_item_distribution, perform_apriori_analysis, get_items, get_list_items, get_items_input, sum_item_amounts
 
-from streamlit_gsheets import GSheetsConnection
+
+def update():
+    # clear cache
+    st.cache_data.clear()
+    st.cache_resource.clear()
+    st.experimental_memo.clear()
+    st.experimental_memo.clear_cache()
+    conn = st.connection("gsheets", type=GSheetsConnection)
+    data = conn.read(worksheet="shop")
 
 # Load data
 # data = pd.read_csv('shop.csv', parse_dates=['date'])
@@ -28,6 +36,10 @@ start_date = pd.to_datetime(start_date)
 end_date = pd.to_datetime(end_date)
 filtered_data = data[(data['date'].between(start_date, end_date))]
 
+if st.sidebar.button("update from google sheet"):
+    update()
+    st.write("Data updated successfully")
+
 # Home page
 if page == "Home":
     st.snow()
@@ -46,12 +58,7 @@ if page == "Home":
             # Update original data
             data.update(edited_data)
             conn.update(data=data, worksheet="shop")
-        if st.button("update from google sheet"):
-            data = conn.read(worksheet="shop")
-            data['date'] = pd.to_datetime(data['date'])
-            itemsList = get_items(data)
-            filtered_data = data[(data['date'].between(start_date, end_date))]
-            st.write("Data updated successfully")
+            update()
 
 # Channels page
 elif page == "Channels":
@@ -144,5 +151,6 @@ elif page == "New Entry":
         st.balloons()
         st.write(data.tail(1))
         conn.update(data=data, worksheet="shop")
+        update()
         # clear session state
         st.session_state.clear()
