@@ -46,6 +46,12 @@ if page == "Home":
             # Update original data
             data.update(edited_data)
             conn.update(data=data, worksheet="shop")
+        if st.button("update from google sheet"):
+            data = conn.read(worksheet="shop")
+            data['date'] = pd.to_datetime(data['date'])
+            itemsList = get_items(data)
+            filtered_data = data[(data['date'].between(start_date, end_date))]
+            st.write("Data updated successfully")
 
 # Channels page
 elif page == "Channels":
