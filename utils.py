@@ -75,7 +75,7 @@ def get_items_input(items):
     with column1:
         item = st.selectbox('Select Item', ["new Item"] + items, key='item', index=None)
         if item == "new Item":
-            item = st.text_input('Item', "")
+            item = st.text_input('Item', "").strip().lower()
     with column2:
         amount = st.number_input('Amount', 1)
     with column3:
