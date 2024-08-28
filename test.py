@@ -9,8 +9,6 @@ def update():
     # clear cache
     st.cache_data.clear()
     st.cache_resource.clear()
-    st.experimental_memo.clear()
-    st.experimental_memo.clear_cache()
     conn = st.connection("gsheets", type=GSheetsConnection)
     data = conn.read(worksheet="shop")
 
